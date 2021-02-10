@@ -1,2 +1,2 @@
-# embedding-b2s
-Embedded Tableau project for B2S week
+Embedding Tableau dashboards, B2S project
+
