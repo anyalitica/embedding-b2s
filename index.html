@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basic embedding B2S</title>
+    <script
+      type="text/javascript"
+      src="https://public.tableau.com/javascripts/api/tableau-2.min.js"
+    ></script>
+    <!-- link to the CSS file -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1>🌐 Superstore portal 🌐</h1>
+    <!-- self-closing tag for a horisontal line -->
+    <hr />
+    <div>
+      <button id="exportPDF">Export to PDF</button>
+      <button id="exportExcel">Export Crosstab to Excel</button>
+    </div>
+    <div>
+      <button id="showHideViz">Hide Viz</button>
+    </div>
+    <hr />
+    <div>
+      Sales filter
+      <input type="number" id="min" placeholder="Minimum value" />
+      <input type="number" id="max" placeholder="Maximum value" />
+      <button id="applyFilter">Apply filter</button>
+    </div>
+    <div id="vizContainer"></div>
+    <script src="./app.js"></script>
+  </body>
+</html>
